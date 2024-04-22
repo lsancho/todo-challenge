@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoChallenge.Worker", "worker\TodoChallenge.Worker.csproj", "{81CCA18F-2185-4CEF-BF08-A1CC191C41AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoChallenge.Api", "api\TodoChallenge.Api.csproj", "{AB09A330-2E93-4F54-A5DC-EE5DD0F58126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoChallenge.Contracts", "contracts\TodoChallenge.Contracts.csproj", "{320765FB-60AA-4CEB-87EC-920693801E25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CCA18F-2185-4CEF-BF08-A1CC191C41AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81CCA18F-2185-4CEF-BF08-A1CC191C41AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81CCA18F-2185-4CEF-BF08-A1CC191C41AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81CCA18F-2185-4CEF-BF08-A1CC191C41AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB09A330-2E93-4F54-A5DC-EE5DD0F58126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB09A330-2E93-4F54-A5DC-EE5DD0F58126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB09A330-2E93-4F54-A5DC-EE5DD0F58126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB09A330-2E93-4F54-A5DC-EE5DD0F58126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320765FB-60AA-4CEB-87EC-920693801E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320765FB-60AA-4CEB-87EC-920693801E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320765FB-60AA-4CEB-87EC-920693801E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320765FB-60AA-4CEB-87EC-920693801E25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
